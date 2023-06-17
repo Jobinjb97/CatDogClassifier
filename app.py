@@ -18,7 +18,7 @@ file_uploaded=st.file_uploader('Choose the Database',accept_multiple_files=False
 if file_uploaded is not None:
     file_name=file_uploaded
 else:
-    file_name='cat.1.jpg'
+    file_name='cat.10.jpg'
 
 if st.checkbox('View Image',False):
     image=Image.open(file_name)
